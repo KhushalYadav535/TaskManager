@@ -1,5 +1,4 @@
 const { createTask, fetchAllTasks, updateTaskById, deleteTaskById } = require('../Controllers/TaskController');
-
 const router = require('express').Router();
 
 // To get all the tasks
